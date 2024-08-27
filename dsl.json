@@ -1,0 +1,1636 @@
+{
+    "identity": {
+        "args": [
+            "x"
+        ],
+        "types": [
+            "x: Any"
+        ],
+        "returns": "Any"
+    },
+    "add": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Numerical",
+            "b: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "subtract": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Numerical",
+            "b: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "multiply": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Numerical",
+            "b: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "divide": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Numerical",
+            "b: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "invert": {
+        "args": [
+            "n"
+        ],
+        "types": [
+            "n: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "even": {
+        "args": [
+            "n"
+        ],
+        "types": [
+            "n: Integer"
+        ],
+        "returns": "Boolean"
+    },
+    "double": {
+        "args": [
+            "n"
+        ],
+        "types": [
+            "n: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "halve": {
+        "args": [
+            "n"
+        ],
+        "types": [
+            "n: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "flip": {
+        "args": [
+            "b"
+        ],
+        "types": [
+            "b: Boolean"
+        ],
+        "returns": "Boolean"
+    },
+    "equality": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Any",
+            "b: Any"
+        ],
+        "returns": "Boolean"
+    },
+    "contained": {
+        "args": [
+            "value",
+            "container"
+        ],
+        "types": [
+            "value: Any",
+            "container: Container"
+        ],
+        "returns": "Boolean"
+    },
+    "combine": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Container",
+            "b: Container"
+        ],
+        "returns": "Container"
+    },
+    "intersection": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: FrozenSet",
+            "b: FrozenSet"
+        ],
+        "returns": "FrozenSet"
+    },
+    "difference": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: FrozenSet",
+            "b: FrozenSet"
+        ],
+        "returns": "FrozenSet"
+    },
+    "dedupe": {
+        "args": [
+            "tup"
+        ],
+        "types": [
+            "tup: Tuple"
+        ],
+        "returns": "Tuple"
+    },
+    "order": {
+        "args": [
+            "container",
+            "compfunc"
+        ],
+        "types": [
+            "container: Container",
+            "compfunc: Callable"
+        ],
+        "returns": "Tuple"
+    },
+    "repeat": {
+        "args": [
+            "item",
+            "num"
+        ],
+        "types": [
+            "item: Any",
+            "num: Integer"
+        ],
+        "returns": "Tuple"
+    },
+    "greater": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Integer",
+            "b: Integer"
+        ],
+        "returns": "Boolean"
+    },
+    "size": {
+        "args": [
+            "container"
+        ],
+        "types": [
+            "container: Container"
+        ],
+        "returns": "Integer"
+    },
+    "merge": {
+        "args": [
+            "containers"
+        ],
+        "types": [
+            "containers: ContainerContainer"
+        ],
+        "returns": "Container"
+    },
+    "maximum": {
+        "args": [
+            "container"
+        ],
+        "types": [
+            "container: IntegerSet"
+        ],
+        "returns": "Integer"
+    },
+    "minimum": {
+        "args": [
+            "container"
+        ],
+        "types": [
+            "container: IntegerSet"
+        ],
+        "returns": "Integer"
+    },
+    "valmax": {
+        "args": [
+            "container",
+            "compfunc"
+        ],
+        "types": [
+            "container: Container",
+            "compfunc: Callable"
+        ],
+        "returns": "Integer"
+    },
+    "valmin": {
+        "args": [
+            "container",
+            "compfunc"
+        ],
+        "types": [
+            "container: Container",
+            "compfunc: Callable"
+        ],
+        "returns": "Integer"
+    },
+    "argmax": {
+        "args": [
+            "container",
+            "compfunc"
+        ],
+        "types": [
+            "container: Container",
+            "compfunc: Callable"
+        ],
+        "returns": "Any"
+    },
+    "argmin": {
+        "args": [
+            "container",
+            "compfunc"
+        ],
+        "types": [
+            "container: Container",
+            "compfunc: Callable"
+        ],
+        "returns": "Any"
+    },
+    "mostcommon": {
+        "args": [
+            "container"
+        ],
+        "types": [
+            "container: Container"
+        ],
+        "returns": "Any"
+    },
+    "leastcommon": {
+        "args": [
+            "container"
+        ],
+        "types": [
+            "container: Container"
+        ],
+        "returns": "Any"
+    },
+    "initset": {
+        "args": [
+            "value"
+        ],
+        "types": [
+            "value: Any"
+        ],
+        "returns": "FrozenSet"
+    },
+    "both": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Boolean",
+            "b: Boolean"
+        ],
+        "returns": "Boolean"
+    },
+    "either": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Boolean",
+            "b: Boolean"
+        ],
+        "returns": "Boolean"
+    },
+    "increment": {
+        "args": [
+            "x"
+        ],
+        "types": [
+            "x: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "decrement": {
+        "args": [
+            "x"
+        ],
+        "types": [
+            "x: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "crement": {
+        "args": [
+            "x"
+        ],
+        "types": [
+            "x: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "sign": {
+        "args": [
+            "x"
+        ],
+        "types": [
+            "x: Numerical"
+        ],
+        "returns": "Numerical"
+    },
+    "positive": {
+        "args": [
+            "x"
+        ],
+        "types": [
+            "x: Integer"
+        ],
+        "returns": "Boolean"
+    },
+    "toivec": {
+        "args": [
+            "i"
+        ],
+        "types": [
+            "i: Integer"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "tojvec": {
+        "args": [
+            "j"
+        ],
+        "types": [
+            "j: Integer"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "sfilter": {
+        "args": [
+            "container",
+            "condition"
+        ],
+        "types": [
+            "container: Container",
+            "condition: Callable"
+        ],
+        "returns": "Container"
+    },
+    "mfilter": {
+        "args": [
+            "container",
+            "function"
+        ],
+        "types": [
+            "container: Container",
+            "function: Callable"
+        ],
+        "returns": "FrozenSet"
+    },
+    "extract": {
+        "args": [
+            "container",
+            "condition"
+        ],
+        "types": [
+            "container: Container",
+            "condition: Callable"
+        ],
+        "returns": "Any"
+    },
+    "totuple": {
+        "args": [
+            "container"
+        ],
+        "types": [
+            "container: FrozenSet"
+        ],
+        "returns": "Tuple"
+    },
+    "first": {
+        "args": [
+            "container"
+        ],
+        "types": [
+            "container: Container"
+        ],
+        "returns": "Any"
+    },
+    "last": {
+        "args": [
+            "container"
+        ],
+        "types": [
+            "container: Container"
+        ],
+        "returns": "Any"
+    },
+    "insert": {
+        "args": [
+            "value",
+            "container"
+        ],
+        "types": [
+            "value: Any",
+            "container: FrozenSet"
+        ],
+        "returns": "FrozenSet"
+    },
+    "remove": {
+        "args": [
+            "value",
+            "container"
+        ],
+        "types": [
+            "value: Any",
+            "container: Container"
+        ],
+        "returns": "Container"
+    },
+    "other": {
+        "args": [
+            "container",
+            "value"
+        ],
+        "types": [
+            "container: Container",
+            "value: Any"
+        ],
+        "returns": "Any"
+    },
+    "interval": {
+        "args": [
+            "start",
+            "stop",
+            "step"
+        ],
+        "types": [
+            "start: Integer",
+            "stop: Integer",
+            "step: Integer"
+        ],
+        "returns": "Tuple"
+    },
+    "astuple": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Integer",
+            "b: Integer"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "product": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Container",
+            "b: Container"
+        ],
+        "returns": "FrozenSet"
+    },
+    "pair": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Tuple",
+            "b: Tuple"
+        ],
+        "returns": "TupleTuple"
+    },
+    "branch": {
+        "args": [
+            "condition",
+            "a",
+            "b"
+        ],
+        "types": [
+            "condition: Boolean",
+            "a: Any",
+            "b: Any"
+        ],
+        "returns": "Any"
+    },
+    "compose": {
+        "args": [
+            "outer",
+            "inner"
+        ],
+        "types": [
+            "outer: Callable",
+            "inner: Callable"
+        ],
+        "returns": "Callable"
+    },
+    "chain": {
+        "args": [
+            "h",
+            "g",
+            "f"
+        ],
+        "types": [
+            "h: Callable",
+            "g: Callable",
+            "f: Callable"
+        ],
+        "returns": "Callable"
+    },
+    "matcher": {
+        "args": [
+            "function",
+            "target"
+        ],
+        "types": [
+            "function: Callable",
+            "target: Any"
+        ],
+        "returns": "Callable"
+    },
+    "rbind": {
+        "args": [
+            "function",
+            "fixed"
+        ],
+        "types": [
+            "function: Callable",
+            "fixed: Any"
+        ],
+        "returns": "Callable"
+    },
+    "lbind": {
+        "args": [
+            "function",
+            "fixed"
+        ],
+        "types": [
+            "function: Callable",
+            "fixed: Any"
+        ],
+        "returns": "Callable"
+    },
+    "power": {
+        "args": [
+            "function",
+            "n"
+        ],
+        "types": [
+            "function: Callable",
+            "n: Integer"
+        ],
+        "returns": "Callable"
+    },
+    "fork": {
+        "args": [
+            "outer",
+            "a",
+            "b"
+        ],
+        "types": [
+            "outer: Callable",
+            "a: Callable",
+            "b: Callable"
+        ],
+        "returns": "Callable"
+    },
+    "apply": {
+        "args": [
+            "function",
+            "container"
+        ],
+        "types": [
+            "function: Callable",
+            "container: Container"
+        ],
+        "returns": "Container"
+    },
+    "rapply": {
+        "args": [
+            "functions",
+            "value"
+        ],
+        "types": [
+            "functions: Container",
+            "value: Any"
+        ],
+        "returns": "Container"
+    },
+    "mapply": {
+        "args": [
+            "function",
+            "container"
+        ],
+        "types": [
+            "function: Callable",
+            "container: ContainerContainer"
+        ],
+        "returns": "FrozenSet"
+    },
+    "papply": {
+        "args": [
+            "function",
+            "a",
+            "b"
+        ],
+        "types": [
+            "function: Callable",
+            "a: Tuple",
+            "b: Tuple"
+        ],
+        "returns": "Tuple"
+    },
+    "mpapply": {
+        "args": [
+            "function",
+            "a",
+            "b"
+        ],
+        "types": [
+            "function: Callable",
+            "a: Tuple",
+            "b: Tuple"
+        ],
+        "returns": "Tuple"
+    },
+    "prapply": {
+        "args": [
+            "function",
+            "a",
+            "b"
+        ],
+        "types": [
+            "function",
+            "a: Container",
+            "b: Container"
+        ],
+        "returns": "FrozenSet"
+    },
+    "mostcolor": {
+        "args": [
+            "element"
+        ],
+        "types": [
+            "element: Element"
+        ],
+        "returns": "Integer"
+    },
+    "leastcolor": {
+        "args": [
+            "element"
+        ],
+        "types": [
+            "element: Element"
+        ],
+        "returns": "Integer"
+    },
+    "height": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "Integer"
+    },
+    "width": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "Integer"
+    },
+    "shape": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "portrait": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "Boolean"
+    },
+    "colorcount": {
+        "args": [
+            "element",
+            "value"
+        ],
+        "types": [
+            "element: Element",
+            "value: Integer"
+        ],
+        "returns": "Integer"
+    },
+    "colorfilter": {
+        "args": [
+            "objs",
+            "value"
+        ],
+        "types": [
+            "objs: Objects",
+            "value: Integer"
+        ],
+        "returns": "Objects"
+    },
+    "sizefilter": {
+        "args": [
+            "container",
+            "n"
+        ],
+        "types": [
+            "container: Container",
+            "n: Integer"
+        ],
+        "returns": "FrozenSet"
+    },
+    "asindices": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Indices"
+    },
+    "ofcolor": {
+        "args": [
+            "grid",
+            "value"
+        ],
+        "types": [
+            "grid: Grid",
+            "value: Integer"
+        ],
+        "returns": "Indices"
+    },
+    "ulcorner": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "urcorner": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "llcorner": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "lrcorner": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "crop": {
+        "args": [
+            "grid",
+            "start",
+            "dims"
+        ],
+        "types": [
+            "grid: Grid",
+            "start: IntegerTuple",
+            "dims: IntegerTuple"
+        ],
+        "returns": "Grid"
+    },
+    "toindices": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Indices"
+    },
+    "recolor": {
+        "args": [
+            "value",
+            "patch"
+        ],
+        "types": [
+            "value: Integer",
+            "patch: Patch"
+        ],
+        "returns": "Object"
+    },
+    "shift": {
+        "args": [
+            "patch",
+            "directions"
+        ],
+        "types": [
+            "patch: Patch",
+            "directions: IntegerTuple"
+        ],
+        "returns": "Patch"
+    },
+    "normalize": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Patch"
+    },
+    "dneighbors": {
+        "args": [
+            "loc"
+        ],
+        "types": [
+            "loc: IntegerTuple"
+        ],
+        "returns": "Indices"
+    },
+    "ineighbors": {
+        "args": [
+            "loc"
+        ],
+        "types": [
+            "loc: IntegerTuple"
+        ],
+        "returns": "Indices"
+    },
+    "neighbors": {
+        "args": [
+            "loc"
+        ],
+        "types": [
+            "loc: IntegerTuple"
+        ],
+        "returns": "Indices"
+    },
+    "objects": {
+        "args": [
+            "grid",
+            "univalued",
+            "diagonal",
+            "without_bg"
+        ],
+        "types": [
+            "grid: Grid",
+            "univalued: Boolean",
+            "diagonal: Boolean",
+            "without_bg: Boolean"
+        ],
+        "returns": "Objects"
+    },
+    "partition": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Objects"
+    },
+    "fgpartition": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Objects"
+    },
+    "uppermost": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Integer"
+    },
+    "lowermost": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Integer"
+    },
+    "leftmost": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Integer"
+    },
+    "rightmost": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Integer"
+    },
+    "square": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "Boolean"
+    },
+    "vline": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Boolean"
+    },
+    "hline": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Boolean"
+    },
+    "hmatching": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Patch",
+            "b: Patch"
+        ],
+        "returns": "Boolean"
+    },
+    "vmatching": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Patch",
+            "b: Patch"
+        ],
+        "returns": "Boolean"
+    },
+    "manhattan": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Patch",
+            "b: Patch"
+        ],
+        "returns": "Integer"
+    },
+    "adjacent": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Patch",
+            "b: Patch"
+        ],
+        "returns": "Boolean"
+    },
+    "bordering": {
+        "args": [
+            "patch",
+            "grid"
+        ],
+        "types": [
+            "patch: Patch",
+            "grid: Grid"
+        ],
+        "returns": "Boolean"
+    },
+    "centerofmass": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "palette": {
+        "args": [
+            "element"
+        ],
+        "types": [
+            "element: Element"
+        ],
+        "returns": "IntegerSet"
+    },
+    "numcolors": {
+        "args": [
+            "element"
+        ],
+        "types": [
+            "element: Element"
+        ],
+        "returns": "IntegerSet"
+    },
+    "color": {
+        "args": [
+            "obj"
+        ],
+        "types": [
+            "obj: Object"
+        ],
+        "returns": "Integer"
+    },
+    "toobject": {
+        "args": [
+            "patch",
+            "grid"
+        ],
+        "types": [
+            "patch: Patch",
+            "grid: Grid"
+        ],
+        "returns": "Object"
+    },
+    "asobject": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Object"
+    },
+    "rot90": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "rot180": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "rot270": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "hmirror": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "Piece"
+    },
+    "vmirror": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "Piece"
+    },
+    "dmirror": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "Piece"
+    },
+    "cmirror": {
+        "args": [
+            "piece"
+        ],
+        "types": [
+            "piece: Piece"
+        ],
+        "returns": "Piece"
+    },
+    "fill": {
+        "args": [
+            "grid",
+            "value",
+            "patch"
+        ],
+        "types": [
+            "grid: Grid",
+            "value: Integer",
+            "patch: Patch"
+        ],
+        "returns": "Grid"
+    },
+    "paint": {
+        "args": [
+            "grid",
+            "obj"
+        ],
+        "types": [
+            "grid: Grid",
+            "obj: Object"
+        ],
+        "returns": "Grid"
+    },
+    "underfill": {
+        "args": [
+            "grid",
+            "value",
+            "patch"
+        ],
+        "types": [
+            "grid: Grid",
+            "value: Integer",
+            "patch: Patch"
+        ],
+        "returns": "Grid"
+    },
+    "underpaint": {
+        "args": [
+            "grid",
+            "obj"
+        ],
+        "types": [
+            "grid: Grid",
+            "obj: Object"
+        ],
+        "returns": "Grid"
+    },
+    "hupscale": {
+        "args": [
+            "grid",
+            "factor"
+        ],
+        "types": [
+            "grid: Grid",
+            "factor: Integer"
+        ],
+        "returns": "Grid"
+    },
+    "vupscale": {
+        "args": [
+            "grid",
+            "factor"
+        ],
+        "types": [
+            "grid: Grid",
+            "factor: Integer"
+        ],
+        "returns": "Grid"
+    },
+    "upscale": {
+        "args": [
+            "element",
+            "factor"
+        ],
+        "types": [
+            "element: Element",
+            "factor: Integer"
+        ],
+        "returns": "Element"
+    },
+    "downscale": {
+        "args": [
+            "grid",
+            "factor"
+        ],
+        "types": [
+            "grid: Grid",
+            "factor: Integer"
+        ],
+        "returns": "Grid"
+    },
+    "hconcat": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Grid",
+            "b: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "vconcat": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Grid",
+            "b: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "subgrid": {
+        "args": [
+            "patch",
+            "grid"
+        ],
+        "types": [
+            "patch: Patch",
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "hsplit": {
+        "args": [
+            "grid",
+            "n"
+        ],
+        "types": [
+            "grid: Grid",
+            "n: Integer"
+        ],
+        "returns": "Tuple"
+    },
+    "vsplit": {
+        "args": [
+            "grid",
+            "n"
+        ],
+        "types": [
+            "grid: Grid",
+            "n: Integer"
+        ],
+        "returns": "Tuple"
+    },
+    "cellwise": {
+        "args": [
+            "a",
+            "b",
+            "fallback"
+        ],
+        "types": [
+            "a: Grid",
+            "b: Grid",
+            "fallback: Integer"
+        ],
+        "returns": "Grid"
+    },
+    "replace": {
+        "args": [
+            "grid",
+            "replacee",
+            "replacer"
+        ],
+        "types": [
+            "grid: Grid",
+            "replacee: Integer",
+            "replacer: Integer"
+        ],
+        "returns": "Grid"
+    },
+    "switch": {
+        "args": [
+            "grid",
+            "a",
+            "b"
+        ],
+        "types": [
+            "grid: Grid",
+            "a: Integer",
+            "b: Integer"
+        ],
+        "returns": "Grid"
+    },
+    "center": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "position": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: Patch",
+            "b: Patch"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "index": {
+        "args": [
+            "grid",
+            "loc"
+        ],
+        "types": [
+            "grid: Grid",
+            "loc: IntegerTuple"
+        ],
+        "returns": "Integer"
+    },
+    "canvas": {
+        "args": [
+            "value",
+            "dimensions"
+        ],
+        "types": [
+            "value: Integer",
+            "dimensions: IntegerTuple"
+        ],
+        "returns": "Grid"
+    },
+    "corners": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Indices"
+    },
+    "connect": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "types": [
+            "a: IntegerTuple",
+            "b: IntegerTuple"
+        ],
+        "returns": "Indices"
+    },
+    "cover": {
+        "args": [
+            "grid",
+            "patch"
+        ],
+        "types": [
+            "grid: Grid",
+            "patch: Patch"
+        ],
+        "returns": "Grid"
+    },
+    "trim": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "move": {
+        "args": [
+            "grid",
+            "obj",
+            "offset"
+        ],
+        "types": [
+            "grid: Grid",
+            "obj: Object",
+            "offset: IntegerTuple"
+        ],
+        "returns": "Grid"
+    },
+    "tophalf": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "bottomhalf": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "lefthalf": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "righthalf": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "vfrontier": {
+        "args": [
+            "location"
+        ],
+        "types": [
+            "location: IntegerTuple"
+        ],
+        "returns": "Indices"
+    },
+    "hfrontier": {
+        "args": [
+            "location"
+        ],
+        "types": [
+            "location: IntegerTuple"
+        ],
+        "returns": "Indices"
+    },
+    "backdrop": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Indices"
+    },
+    "delta": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Indices"
+    },
+    "gravitate": {
+        "args": [
+            "source",
+            "destination"
+        ],
+        "types": [
+            "source: Patch",
+            "destination: Patch"
+        ],
+        "returns": "IntegerTuple"
+    },
+    "inbox": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Indices"
+    },
+    "outbox": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Indices"
+    },
+    "box": {
+        "args": [
+            "patch"
+        ],
+        "types": [
+            "patch: Patch"
+        ],
+        "returns": "Indices"
+    },
+    "shoot": {
+        "args": [
+            "start",
+            "direction"
+        ],
+        "types": [
+            "start: IntegerTuple",
+            "direction: IntegerTuple"
+        ],
+        "returns": "Indices"
+    },
+    "occurrences": {
+        "args": [
+            "grid",
+            "obj"
+        ],
+        "types": [
+            "grid: Grid",
+            "obj: Object"
+        ],
+        "returns": "Indices"
+    },
+    "frontiers": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Objects"
+    },
+    "compress": {
+        "args": [
+            "grid"
+        ],
+        "types": [
+            "grid: Grid"
+        ],
+        "returns": "Grid"
+    },
+    "hperiod": {
+        "args": [
+            "obj"
+        ],
+        "types": [
+            "obj: Object"
+        ],
+        "returns": "Integer"
+    },
+    "vperiod": {
+        "args": [
+            "obj"
+        ],
+        "types": [
+            "obj: Object"
+        ],
+        "returns": "Integer"
+    }
+}

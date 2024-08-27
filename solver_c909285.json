@@ -1,0 +1,5 @@
+{
+    "leastcolor": ["I", "x1"],
+    "ofcolor": ["I", "x1", "x2"],
+    "subgrid": ["x2", "I", "O"]
+}
